@@ -1,0 +1,13 @@
+body {
+    /* background: #01257D; */
+    background-image: url("images/fondo_blue.jpg");
+}
+#div-foto{
+    margin-top: 2.5rem !important;
+}
+#div-info{
+    margin-top: 3.5rem !important;
+}
+.elect_blue{
+    color:#00FFFF
+}
