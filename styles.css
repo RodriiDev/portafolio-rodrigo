@@ -1,6 +1,7 @@
 body {
     /* background: #01257D; */
     background-image: url("images/fondo_blue.jpg");
+    /* background: #000000; */
 }
 #div-foto{
     margin-top: 2.5rem !important;
@@ -36,4 +37,16 @@ body {
 }
 .linkTitle{
     text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .img-small {
+        width: 50%;
+        height: 50%;
+        max-width: 50%;
+        height: auto;
+      }
+    #div-info{
+        text-align: center;
+    }
 }
