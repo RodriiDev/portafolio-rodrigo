@@ -34,3 +34,6 @@ body {
     font-weight: 600;
     font-style: normal;
 }
+.linkTitle{
+    text-decoration: none;
+}
