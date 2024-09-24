@@ -50,3 +50,10 @@ body {
         text-align: center;
     }
 }
+
+.icono {
+    width: 2em; /* Ajusta el tamaño a la altura de la fuente */
+    height: 2em; 
+    vertical-align: middle; 
+    margin-right: .5em;
+}
