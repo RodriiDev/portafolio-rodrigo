@@ -19,10 +19,33 @@
 
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target="#myNav" data-bs-offset="50" tabindex="0">
 
-	<div class="container mb-4">
-		<div class="row">
+	<nav id="myNav" class="navbar navbar-expand-lg bag-black">
+		<div class="container-fluid">
+		  <a id="name_label" class="navbar-brand text-light rubik-600" href="#">Rodrigo</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ms-auto rubik-300">
+			  <li class="nav-item">
+				<a class="nav-link text-light" aria-current="page" href="#home">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link text-light" href="#proyectos">Proyectos</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link text-light" href="#skills">Skills</a>
+			  </li>
+			</ul>
+			
+		  </div>
+		</div>
+	</nav>
+
+	<div class="container mb-6">
+		<div class="row" id="home">
 			<div id="div-foto" class="col-xs-12 col-sm-6 offset-md-1 col-md-4 offset-lg-2 col-lg-3 offset-xl-3 col-xl-2 d-flex align-items-start justify-content-center">
 				<img class="img-fluid img-small" src="./images/meCV2.png" alt="">
 			</div>
@@ -53,7 +76,7 @@
 			</div>
 		</div>
 
-		<div class="row">
+		<div id="proyectos" class="row">
 
 				<label class="text-light fs-4 fw-bold mt-5 text-center mt-4 mb-4">Proyectos Personales</label>
 			
@@ -99,60 +122,12 @@
 		
 		</div>
 
-		<div class="row">
+		<div id="skills" class="row">
 
 			<label class="text-light fs-4 fw-bold mt-3 text-center">Skills</label>
 			
 			<div class="row mt-2 d-flex align-items-center justify-content-center text-center">
 				
-				<!-- <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 mt-2">
-					<img class="img-fluid" src="images/php.png" alt="">
-				</div>
-				
-				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 mt-2">
-					<img class="img-fluid" src="images/js.png" alt="">
-				</div>
-				
-				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 mt-2">
-					<img class="img-fluid" src="images/css.png" alt="">
-				</div>
-				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 mt-2">
-					<img class="img-fluid" src="images/htmli.png" alt="">
-				</div>
-				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 mt-2">
-					<img class="img-fluid" src="images/mysql.png" alt="">
-				</div>
-				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 mt-2">
-					<img class="img-fluid" src="images/sqlserver.jpg" alt="">
-				</div>
-				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 mt-2">
-					<img class="img-fluid" src="images/laravel.webp" alt="">
-				</div>
-				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 mt-2">
-					<img class="img-fluid" src="images/bootstrap.png" alt="">
-				</div>
-				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 mt-2">
-					<img class="img-fluid" src="images/tailwind.png" alt="">
-				</div>
-				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 mt-2">
-					<img class="img-fluid" src="images/react.png" alt="">
-				</div>
-				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 mt-2">
-					<img class="img-fluid" src="images/typescript.png" alt="">
-				</div>
-				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 mt-2">
-					<img class="img-fluid" src="images/jquery.png" alt="">
-				</div>
-				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 mt-2">
-					<img class="img-fluid" src="images/mongo.jpg" alt="">
-				</div>
-				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 mt-2">
-					<img class="img-fluid" src="images/node.jpg" alt="">
-				</div>
-				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 mt-2">
-					<img class="img-fluid" src="images/aws.jpg" alt="">
-				</div> -->
-
 				<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 mt-3">
 					<div class="card bg_gray">
 						<div class="card-body">
@@ -295,8 +270,8 @@
 
 	</div>
 
-	<footer>
-
+	<footer class="text-center">
+		<label class="mt-5 rubik-300 text-light text-center">Creado por Rodrigo Soto Rojas 2024</label>
 	</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

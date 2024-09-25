@@ -1,13 +1,13 @@
 body {
     /* background: #01257D; */
     /*background-image: url("images/fondo_blue.jpg");*/
-    background: #161616;
+    background: #1c1c22;
 }
 #div-foto{
-    margin-top: 2.5rem !important;
+    margin-top: 3.7rem !important;
 }
 #div-info{
-    margin-top: 2.5rem !important;
+    margin-top: 3.7rem !important;
 }
 .elect_blue{
     color:#00FFFF
@@ -57,11 +57,31 @@ body {
     vertical-align: middle; 
     margin-right: .5em;
 }
-
 .green_font{
-    color: #62f194;
+    color: #00ff99;
 }
-
 .bg_gray{
     background-color: #323232;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background: #1c1c22;
+
+}
+#navbarSupportedContent{
+    margin-right: 10.2rem;
+}
+
+.navbar-toggler-icon{
+    color: #ffffff !important;
+    --bs-emphasis-color-rgb: #ffffff !important;
+}
+.nav-link.active{
+    font-weight: bold;
+    border-bottom: 2px solid #00ff99;
+}
+#name_label{
+    margin-left: 6rem;
 }
