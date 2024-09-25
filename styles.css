@@ -1,7 +1,7 @@
 body {
     /* background: #01257D; */
-    background-image: url("images/fondo_blue.jpg");
-    /* background: #000000; */
+    /*background-image: url("images/fondo_blue.jpg");*/
+    background: #161616;
 }
 #div-foto{
     margin-top: 2.5rem !important;
@@ -56,4 +56,12 @@ body {
     height: 2em; 
     vertical-align: middle; 
     margin-right: .5em;
+}
+
+.green_font{
+    color: #62f194;
+}
+
+.bg_gray{
+    background-color: #323232;
 }
