@@ -55,7 +55,7 @@ body {
     width: 2em; /* Ajusta el tamaño a la altura de la fuente */
     height: 2em; 
     vertical-align: middle; 
-    margin-right: .5em;
+    margin-bottom: .5em;
 }
 .green_font{
     color: #00ff99;
